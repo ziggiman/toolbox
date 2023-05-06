@@ -5,7 +5,7 @@ REM This script will find the number of the day of the year (like dec 24 = 358).
 REM It will then do a "dayOfYear % retention" modulo calculation and place backup into folder with that name
 REM 
 REM To restore a backup simply run:
-REM      wsl --import distro_name install_location file_name.tar
+REM      wsl --import [distro_name] [install_location] [file_name].tar
 REM  For example to create a setup called Ubuntu-18.04 from a previous WSL setup file called ubuntu.tar and then saving the setup in C:\Users\xyz\ubuntu run:
 REM      wsl --import Ubuntu-20.04 C:\Users\xyz\ubuntu ubuntu.tar
 
